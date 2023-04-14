@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #F7F6F2;
+}
+
+/* Barra de navegacion */
+
+.navbar{
+    padding: 5px;
+    background-color:  #C8C6C6
+ 
+}
+
+.navbar a{
+    color: #ffffff;
+}
+
+/* Seccion Hero*/
+
+h1{
+    font-size: 50px;
+    font-family: 'Source Serif Pro', serif;
+    padding: 50px;
+    font-weight: bold;
+    text-align: center;
+    
+    }
+
+.h2-1{
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.imagenInicio{
+    align-items: center;
+}
+
+
+.h2Sobrenos{
+    font-family: 'Source Serif Pro', serif;
+    padding: 15px 0;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.parrafoSobrenos{
+
+    font-size: 20px;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif
+
+
+}
+
+
+/* Presemtacion personal */
+
+
+.columna .icono{
+
+    font-size: 2.5rem;
+    color: #F7F6F2;
+    background-color:#4B6587 ;
+    padding: 8px 19px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 1px 0px 50px 10px;
+    
+}
+
+.columna{
+    padding: 20px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+    border-radius: 5%;
+    font-family: 'Source Serif Pro', serif;
+   
+}
+.columna:hover{
+
+    color: #ffffff;
+    background-color: #C8C6C6;
+    transition: all 0.2s ease-in;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.parrafoUsuario{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Contacto */
+
+.contactoH2{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.contactoBoton{
+    margin: 15px;
+}
+
+.formControl{
+
+    margin: 10px;
+    align-items: center;
+    
+    }
+
+ /*   reclamo   */
+
+.reclamoH2{
+     
+    padding: 15px 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.reclamosBoton{
+
+    margin: 15px;
+}
+
+
+/*footer*/
+
+
+
+.imagenFooter{
+
+    margin: 20px;
+
+}
+
+.footer-texto{
+    font-size: 15px;
+    
+}
+
+.pFooter{
+    margin: 20px;
+    font-size: 10px;
+    color:  #eaeaea;
+}
+
+.iconosFooter{
+    color: #ffffff;
+    font-size: 30px;
+    
+}
+footer{
+
+    background-color:  #C8C6C6
+}
+
+.footerTexto{
+    color:  #ffffff;
+}
+
+/* adaptable (Responsivo) */
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
