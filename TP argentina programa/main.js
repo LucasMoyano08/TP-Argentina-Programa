@@ -3,3 +3,4 @@ function validacion() {
         alert("Todos los campos son obligatorios");
         return false;
 }}
+
